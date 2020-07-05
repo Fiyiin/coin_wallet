@@ -1,4 +1,4 @@
-# coin_wallet
+# Coin Wallet
 
 A new Flutter project.
 
