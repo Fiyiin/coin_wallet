@@ -1,0 +1,49 @@
+name: CoinWallet
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  fl_chart: ^0.10.1
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.7.3"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/bitcoin.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: SF-Pro-Text-Semibold
+      fonts:
+        - asset: assets/fonts/sf-pro-text-semibold.otf
+
+    - family: SF-Pro-Display-Regular
+      fonts:
+        - asset: assets/fonts/sf-pro-display-regular.otf
+
+    - family: SF-Pro-Display-Medium
+      fonts:
+        - asset: assets/fonts/sf-pro-display-medium.otf
+
+    - family: SF-UI-Display-Semibold
+      fonts:
+        - asset: assets/fonts/sf-ui-display-semibold.otf
